@@ -3,6 +3,10 @@
 .warning {
     display: flex;
     align-items: center;
+    margin-top: 60px;
+    border: 1px solid #43C38C;
+    border-radius: 5px;
+    background-color: #fff;
 }
 
 .warning__media {
@@ -11,19 +15,25 @@
 }
 
 .warning__info {
-    color: #fff;
     font-size: 20px;
 
     mark {
-        font-weight: 700;
-        color: inherit;
+        font-weight: 500;
+        color: #43C38C;
     }
 }
 
 @media (max-width: 480px) {
+    .warning {
+        margin-top: 30px;
+        border: 0;
+        background-color: transparent;
+    }
+
     .warning__media {
         max-width: 65px;
         margin-right: 15px;
+        margin-bottom: auto;
     }
 
     .warning__info {

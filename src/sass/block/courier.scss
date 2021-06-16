@@ -6,12 +6,15 @@
 .courier__title {
     margin-bottom: 20px;
     font-size: 48px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
+    color: #43C38C;
 }
 
 .courier__description {
     font-size: 20px;
+    font-weight: 400;
+    max-width: 450px;
 }
 
 @media (max-width: 1024px) {

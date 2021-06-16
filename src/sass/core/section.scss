@@ -29,8 +29,7 @@
     }
 
     &_pay {
-        background-image: url("../media/section/pay.jpg");
-        background-repeat: repeat;
+        background-color: #F2FFF9;
     }
 
     &_warning {
@@ -38,12 +37,12 @@
     }
 
     &_courier {
-        padding-top: 120px;
-        padding-bottom: 120px;
-        background-color: #F0F0F0;
-        background-image: url("../media/courier/human.jpg");
+        padding-top: 130px;
+        padding-bottom: 130px;
+        background-image: url(../media/courier/human.jpg);
+        background-position: calc(50% - 260px) top;
+        background-color: #F2FFF9;
         background-repeat: no-repeat;
-        background-position: calc(50% - 210px) top;
         background-size: contain;
     }
 
@@ -91,6 +90,7 @@
         &_courier {
             padding-top: 120px;
             padding-bottom: 120px;
+            background-position: calc(50% - 180px) top;
         }
     }
 
@@ -126,7 +126,7 @@
         &_courier {
             padding-bottom: 300px;
             background-position: center bottom;
-            background-size: 180px;
+            background-size: 190px;
         }
 
         &_face {
