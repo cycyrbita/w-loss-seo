@@ -1,9 +1,9 @@
 .message__title {
     margin-bottom: 30px;
-    text-align: center;
-    font-size: 64px;
-    color: #7E983C;
+    font-size: 58px;
+    color: #36411B;
     font-weight: 700;
+    text-transform: uppercase;
 
     & span {
         display: block;
@@ -100,7 +100,7 @@
     padding: 120px 35px 20px;
     margin: 100px 0 0;
     background-color: #fff;
-    border: 2px solid #1E5F4B;
+    border: 2px solid #3AB49B;
 }
 
 .message__face {
@@ -118,17 +118,10 @@
 }
 
 .message__name {
-    margin-bottom: 20px;
-    font-size: 22px;
-    font-weight: 700;
-    color: #000;
-    text-align: center;
-
-    & span {
-        display: block;
-        margin-top: 5px;
-        font-size: 14px;
-    }
+    font-size: 18px;
+    font-weight: 300;
+    color: #4E4E4E;
+    margin-top: 30px;
 }
 
 .message__media {
@@ -138,7 +131,6 @@
 
 .message__description {
     width: 100%;
-    margin-bottom: 20px;
     font-size: 18px;
     color: #4E4E4E;
 }
@@ -161,6 +153,7 @@
 
 .message__icon {
     display: flex;
+    display: none;
 
     img {
         flex: 0 0 auto;
