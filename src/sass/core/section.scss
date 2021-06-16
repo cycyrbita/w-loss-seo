@@ -6,10 +6,14 @@
     background-repeat: no-repeat;
 
     &_face {
-        background-color: #F2F2E8;
+        padding-bottom: 145px;
+        background-image: url("../media/section/face.jpg");
+        background-position: center bottom;
+        overflow: hidden;
     }
 
     &_sostav {
+        background-color: #F2FFF9;
         background-image: url("../media/section/sostav.jpg");
         background-position: center;
     }
@@ -122,6 +126,10 @@
             padding-bottom: 300px;
             background-position: center bottom;
             background-size: 180px;
+        }
+
+        &_face {
+            background-image: url("../media/section/face-480.jpg");
         }
     }
 

@@ -5,11 +5,11 @@
     font-size: 48px;
     text-transform: uppercase;
     text-align: center;
-    color: #7E983C;
+    color: #000;
     line-height: 1;
 
     & mark {
-        color: #000;
+        color: #49CD83;
     }
 }
 
@@ -36,7 +36,7 @@
     }
     
     & + & {
-        margin-top: 150px;
+        margin-top: 170px;
     }
 }
 
@@ -49,7 +49,7 @@
 .sostav__name {
     font-size: 24px;
     font-weight: 700;
-    color: #7E983C;
+    color: #49CC83;
     margin-bottom: 5px;
 }
 
