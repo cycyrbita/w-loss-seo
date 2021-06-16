@@ -24,7 +24,8 @@
     }
 
     &_order {
-        background-color: #F2F2E8;
+        background-image: url("../media/section/face.jpg");
+        background-position: center bottom;
     }
 
     &_pay {
@@ -129,6 +130,10 @@
         }
 
         &_face {
+            background-image: url("../media/section/face-480.jpg");
+        }
+
+        &_order {
             background-image: url("../media/section/face-480.jpg");
         }
     }
